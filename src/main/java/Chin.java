@@ -3,7 +3,7 @@ public class Chin implements Tradable, Domesticatable, Drivable{
     private int max_speed;
 
     public Chin(){
-        this.max_speed = 500;
+        this.max_speed = 1000;
     }
 
     @Override
