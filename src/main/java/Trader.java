@@ -101,7 +101,7 @@ public class Trader {
                 new Tradable() {
                     @Override
                     public int getPrice() {
-                        return 0;
+                        return 100;
                     }
                 },
                 new Chinchilla()
