@@ -98,6 +98,12 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 // TODO: Add Tradable objects here!
+                new Tradable() {
+                    @Override
+                    public int getPrice() {
+                        return 0;
+                    }
+                },
                 new Chinchilla()
         );
 
